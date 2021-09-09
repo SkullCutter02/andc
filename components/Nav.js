@@ -29,7 +29,7 @@ class Nav extends HTMLElement {
               <a href="../index.html">Home</a>
             </li>
             <li class="tab-2">
-              <a href="../about-us.html">About Us</a>
+              <a href="#">About Us</a>
             </li>
           </ul>
         </nav>
