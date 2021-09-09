@@ -1,0 +1,9 @@
+:root {
+  --bg: #fff;
+  --primaryTextColor: #000;
+  --secondaryTextColor: #5d5d5d;
+  --primaryColor: #d05454;
+  --navbarHeight: 80px;
+  --textShadow: rgba(0, 0, 0, 0.5);
+  --alternateFont: "Caveat Brush", serif;
+}

@@ -1,0 +1,63 @@
+.hero {
+  height: calc(100vh - var(--navbarHeight));
+  position: relative;
+  z-index: -1;
+  overflow-x: hidden;
+}
+
+.hero .overlay {
+  position: absolute;
+  inset: 0;
+  background: #000;
+  opacity: 30%;
+  z-index: 1;
+}
+
+.hero img {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero .hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 40%;
+  width: 50%;
+  z-index: 2;
+}
+
+.hero .hero-content .hero-text {
+  font-size: 2.5rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px var(--textShadow);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.hero .hero-content .hero-text h1 {
+  font-family: "Caveat Brush", serif;
+}
+
+.hero .hero-content .hero-text * {
+  color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .hero .hero-content {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .hero .hero-content h1 {
+    font-size: 2rem;
+    height: 80%;
+  }
+}

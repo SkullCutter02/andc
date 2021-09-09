@@ -1,0 +1,86 @@
+/* general */
+
+.impact-section {
+  margin: 60px auto 0 auto;
+  width: 90%;
+}
+
+.impact-section h1 {
+  font-size: 1.6rem;
+  font-family: var(--alternateFont);
+}
+
+.impact-section p {
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+.impact-section article:not(.impact-container article) {
+  margin-top: 30px;
+}
+
+.impact-section:last-child {
+  margin-bottom: 70px;
+}
+
+/* current and potential impact */
+
+.impact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.impact p {
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .impact-container {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .potential-impact {
+    margin-bottom: 0;
+  }
+}
+
+/* schools */
+
+.school-container article {
+  display: grid;
+  grid-column-gap: 40px;
+  grid-row-gap: 30px;
+  grid-template-areas:
+    "image1 image2"
+    "text text";
+}
+
+.school-container article img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.school-container article .image-1 {
+  grid-area: image1;
+}
+
+.school-container article .image-2 {
+  grid-area: image2;
+}
+
+.school-container article p {
+  grid-area: text;
+}
+
+@media screen and (max-width: 700px) {
+  .school-container article {
+    grid-column-gap: 30px;
+  }
+
+  .school-container article img {
+    height: 200px;
+  }
+}
