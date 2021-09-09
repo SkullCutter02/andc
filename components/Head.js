@@ -5,7 +5,7 @@ class Head extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <title>Students for Science</title>
+      <title>ANDC</title>
       <link rel="stylesheet" href="../styles/global.css" />
       <link rel="stylesheet" href="../styles/variables.css" />
       <link rel="stylesheet" href="../styles/nav.css" />
