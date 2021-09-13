@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/nav.css" />
     <link rel="stylesheet" href="./styles/hero.css" />
+    <link rel="stylesheet" href="./styles/about-us.css" />
+    <link rel="stylesheet" href="./styles/meet-the-team.css" />
 
     <script src="./components/Head.js" defer></script>
     <script src="./components/Nav.js" defer></script>
@@ -22,17 +24,106 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css" />
   </head>
   <body>
-    <nav-component tab="1"></nav-component>
+    <nav id="navbar">
+      <img src="../public/logo.png" class="logo" alt="Logo" />
+      <ul>
+        <li>
+          <a href="../index.html">home</a>
+        </li>
+        <li>
+          <a href="#about">about</a>
+        </li>
+        <li>
+          <a href="#about">dee</a>
+        </li>
+      </ul>
+    </nav>
 
     <main class="hero">
-      <div class="overlay"></div>
       <img src="./public/hero.jpg" alt="" />
-      <div class="hero-content">
-        <div class="hero-text">
-          <h1>ANDC</h1>
-          <p>the Arts and Design Club</p>
+      <div class="overlay"></div>
+    </main>
+
+    <section class="intro" id="about">
+      <div class="intro-text">
+        <h1>about us</h1>
+        <p>
+          Led by students who are passionate about art, ANDF is a service aimed at not only promoting art
+          within the CIS community and beyond, but also teaching people practical skills in hopes that they
+          will be able to apply their knowledge of art and design within any future endeavours. <br /><br />
+          In our service, courses are blends of traditional and modern forms of art and design, which includes
+          sketching and oil painting as well as activities involving apps like Procreate and Blender.
+          Volunteers will mainly teach art courses to primary students and course material will be inspected
+          by student leaders beforehand.
+        </p>
+      </div>
+      <img src="./public/placeholder.jpg" alt="" />
+    </section>
+    <section class="meet-the-team">
+      <h1>meet the team</h1>
+      <div class="members-container">
+        <div class="member">
+          <img src="./public/members/leo.jpg" alt="" />
+          <div class="member-text">
+            <h1>Leo Tang</h1>
+            <p>leo tang</p>
+          </div>
+        </div>
+        <div class="member">
+          <img src="./public/placeholder.jpg" alt="" />
+          <div class="member-text">
+            <h1>Mona Lisa</h1>
+            <p>leo tang</p>
+          </div>
+        </div>
+        <div class="member">
+          <img src="./public/placeholder.jpg" alt="" />
+          <div class="member-text">
+            <h1>Mona Lisa</h1>
+            <p>leo tang</p>
+          </div>
+        </div>
+        <div class="member">
+          <img src="./public/placeholder.jpg" alt="" />
+          <div class="member-text">
+            <h1>Mona Lisa</h1>
+            <p>leo tang</p>
+          </div>
+        </div>
+        <div class="member">
+          <img src="./public/placeholder.jpg" alt="" />
+          <div class="member-text">
+            <h1>Mona Lisa</h1>
+            <p>leo tang</p>
+          </div>
+        </div>
+        <div class="member">
+          <img src="./public/placeholder.jpg" alt="" />
+          <div class="member-text">
+            <h1>Mona Lisa</h1>
+            <p>leo tang</p>
+          </div>
+        </div>
+        <div class="member">
+          <img src="./public/placeholder.jpg" alt="" />
+          <div class="member-text">
+            <h1>Mona Lisa</h1>
+            <p>leo tang</p>
+          </div>
+        </div>
+        <div class="member">
+          <img src="./public/placeholder.jpg" alt="" />
+          <div class="member-text">
+            <h1>Mona Lisa</h1>
+            <p>leo tang</p>
+          </div>
         </div>
       </div>
-    </main>
+    </section>
+    <footer>
+      <p>
+        built by <a href="https://webforge.netlify.app/" target="_blank"><span>webforge</span></a>
+      </p>
+    </footer>
   </body>
 </html>
