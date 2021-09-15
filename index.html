@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./styles/hero.css" />
     <link rel="stylesheet" href="./styles/about-us.css" />
     <link rel="stylesheet" href="./styles/meet-the-team.css" />
+    <link rel="icon" href="./public/logo.png" type="image/jpg" />
 
     <script src="./components/Head.js" defer></script>
     <script src="./components/Nav.js" defer></script>
@@ -25,21 +26,21 @@
   </head>
   <body>
     <nav id="navbar">
-      <img src="../public/logo.png" class="logo" alt="Logo" />
+      <img src="../public/logo.png" class="logo" alt="Logo" id="logo" />
       <ul>
         <li>
-          <a href="../index.html">home</a>
+          <a href="#home">home</a>
         </li>
         <li>
           <a href="#about">about</a>
         </li>
         <li>
-          <a href="#about">dee</a>
+          <a href="#team">dee</a>
         </li>
       </ul>
     </nav>
 
-    <main class="hero">
+    <main class="hero" id="home">
       <img src="./public/hero.jpg" alt="" />
       <div class="overlay"></div>
     </main>
@@ -51,71 +52,69 @@
           Led by students who are passionate about art, ANDF is a service aimed at not only promoting art
           within the CIS community and beyond, but also teaching people practical skills in hopes that they
           will be able to apply their knowledge of art and design within any future endeavours. <br /><br />
-          In our service, courses are blends of traditional and modern forms of art and design, which includes
-          sketching and oil painting as well as activities involving apps like Procreate and Blender.
+          In our service, courses are blends of traditional and modern forms of art and design, which include
+          sketching and oil painting as well as activities involving software such as Procreate and Blender.
           Volunteers will mainly teach art courses to primary students and course material will be inspected
           by student leaders beforehand.
         </p>
       </div>
       <img src="./public/placeholder.jpg" alt="" />
     </section>
-    <section class="meet-the-team">
+    <section class="meet-the-team" id="team">
       <h1>meet the team</h1>
       <div class="members-container">
         <div class="member">
-          <img src="./public/members/leo.jpg" alt="" />
+          <div class="img-container">
+            <img src="./public/members/leo.jpg" alt="" />
+          </div>
           <div class="member-text">
             <h1>Leo Tang</h1>
+            <p>Product designer</p>
+          </div>
+        </div>
+        <div class="member">
+          <div class="img-container">
+            <img src="./public/members/jason3.png" alt="" />
+          </div>
+          <div class="member-text">
+            <h1>Jason Yiu</h1>
             <p>leo tang</p>
           </div>
         </div>
         <div class="member">
-          <img src="./public/placeholder.jpg" alt="" />
+          <div class="img-container">
+            <img src="./public/members/zoe.jpg" alt="" />
+          </div>
           <div class="member-text">
-            <h1>Mona Lisa</h1>
+            <h1>Zoe Zheng</h1>
             <p>leo tang</p>
           </div>
         </div>
         <div class="member">
-          <img src="./public/placeholder.jpg" alt="" />
+          <div class="img-container">
+            <img src="./public/members/leo.jpg" alt="" />
+          </div>
           <div class="member-text">
-            <h1>Mona Lisa</h1>
-            <p>leo tang</p>
+            <h1>Leo Tang</h1>
+            <p>Product designer</p>
           </div>
         </div>
         <div class="member">
-          <img src="./public/placeholder.jpg" alt="" />
+          <div class="img-container">
+            <img src="./public/members/leo.jpg" alt="" />
+          </div>
           <div class="member-text">
-            <h1>Mona Lisa</h1>
-            <p>leo tang</p>
+            <h1>Leo Tang</h1>
+            <p>Product designer</p>
           </div>
         </div>
         <div class="member">
-          <img src="./public/placeholder.jpg" alt="" />
-          <div class="member-text">
-            <h1>Mona Lisa</h1>
-            <p>leo tang</p>
+          <div class="img-container">
+            <img src="./public/members/leo.jpg" alt="" />
           </div>
-        </div>
-        <div class="member">
-          <img src="./public/placeholder.jpg" alt="" />
           <div class="member-text">
-            <h1>Mona Lisa</h1>
-            <p>leo tang</p>
-          </div>
-        </div>
-        <div class="member">
-          <img src="./public/placeholder.jpg" alt="" />
-          <div class="member-text">
-            <h1>Mona Lisa</h1>
-            <p>leo tang</p>
-          </div>
-        </div>
-        <div class="member">
-          <img src="./public/placeholder.jpg" alt="" />
-          <div class="member-text">
-            <h1>Mona Lisa</h1>
-            <p>leo tang</p>
+            <h1>Leo Tang</h1>
+            <p>Product designer</p>
           </div>
         </div>
       </div>
